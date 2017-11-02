@@ -20,5 +20,6 @@ Place |Team or User | Public Score | Private Score | Summary of Model
 2 | lz01 | 3.0436 | 2.9694 | I used a random forest algorithm, with some feature engineering. I used only microclimtate data when it was available and macroclimate data from guelmim when it was not.
 3 | oliviers | 3.0514 | 2.9723 | I made a program which allows to easily build some "mini models" which use only a part of the data and different aggregation techniques, and then choose the best performing "mini model" for each line of the submission.
 
+#### Interview with winners: [Random Walk of the Penguins - Guest Post by Dr. Grant Humphries](http://drivendata.co/blog/random-walk-of-the-penguins/)
 
 #### Benchmark Blog Post: ["Simple Linear Models"](http://drivendata.co/2017/04/28/penguins-benchmark/)
