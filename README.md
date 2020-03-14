@@ -1,4 +1,4 @@
-[<img src='https://community.drivendata.org/uploads/default/optimized/1X/e055d38472b1ae95f54110375180ceb4449c026b_1_690x111.png'>](https://www.drivendata.org/)
+[<img src='https://s3.amazonaws.com/drivendata-public-assets/logo-white-blue.png' style="max-width:85%;>](https://www.drivendata.org/)
 <br><br>
 
 ![Banner Image](https://s3.amazonaws.com/drivendata-public-assets/banner.jpg)
@@ -18,7 +18,7 @@ This repository contains code volunteered from leading competitors in the [Rando
 ## Winning Submissions
 
 Place |Team or User | Public Score | Private Score | Summary of Model
---- | --- | --- | --- | --- 
+--- | --- | --- | --- | ---
 1 | ambarishg | 4.4193 | 4.8127 |Before running the model, imputation of the data was done for each of the site and penguin type combinations. The imputations were done in the following order - Stine in case of R models and Linear in case of Python models - Last Observation Carried Forward in case of R models only - Next Observation Carried Backward in case of R and Python models - Replace by Zero in case of R models and Python models
 2 | TomBolton | 4.5915 | 4.8274 | My method involved a mix of persistence, auto-regressive models, linear regressions and exponential models. As the challenge involved multiple time series, the particular method applied depended on my judgement, after manual inspection of the data. Tailoring the approach for each time-series individually proved successful as opposed for a single technique across all of them. The behaviour of the time-series varied massively between sites and species. One time-series might show a linear increase due to increased food availability, where a neighbouring site may exhibit exponential decrease due to humans entering the region; with so many potential factors affect the inter-annual variability of nest counts, it made the challenge particularly difficult.
 3 | aaronr | 4.4953 | 4.8495 | The first is estimation of the mean, which is done by last estimation (could be done as an average of last N observations). The second is a recent trend, changes in recent years. The third is the whole time series trend. This approach was partially adapted from Facebook's Prophet blog post. I also wanted to study more from the public leaderboard set (with a risk of overfit) whether there was an additional general trend of increase/decrease that years. Eventually I combined the constant estimation, with a minor general trend and a linear fit that was computed differently for each year.
